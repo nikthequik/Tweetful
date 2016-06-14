@@ -11,10 +11,7 @@ body {
   font-size: 14px;
   height: 636px;
   line-height: 18px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-  margin-top: 0px;
+  margin: 0 auto;
   overflow-y: scroll;
   padding-bottom: 0px;
   padding-left: 0px;
@@ -22,6 +19,7 @@ body {
   padding-top: 0px;
   unicode-bidi: embed;
   width: 1280px;
+  font-family: cursive, sans-serif;
 }
 
 nav {
@@ -177,4 +175,17 @@ table.stats small {
 
 table.stats td:first-child {
   padding-left: 18px;
+}
+
+#tweetful {
+  text-align: center;
+  padding: 1em;
+}
+
+.col3 {
+  display: inline-block;
+  width: 33.1%;
+  box-sizing: border-box;
+  vertical-align: top;
+  padding: 1em;
 }
